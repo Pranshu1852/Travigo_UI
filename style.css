@@ -1,0 +1,144 @@
+body{
+    margin: auto;
+    font-family: "Montserrat", serif;
+}
+
+.headsection{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    background-image: linear-gradient(to bottom,#b3f3e0,white);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 3.5vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    font-size: large;
+    font-weight: 500;
+}
+
+.navbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.loginbutton{
+    font-weight: 500;
+}
+
+.registerbutton{
+    background-color: #2ac08e;
+    border: none;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-radius: 9999px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.registerlink{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+.headheading{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+.headingtext{
+    font-size: 70px;
+    font-weight: bold;
+    width: 40vw;
+    margin: auto;
+}
+
+.subheadingtext{
+    margin: auto;
+    color: gray;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+
+
+.headsectionsbuttons{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.headsecbutton1{
+    color: white;
+    background-color: #2ac08e;
+    border: none;
+    border-radius: 9999px;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+
+.headsecbutton2{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 9999px;
+    font-size: large;
+    font-weight: 500;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+
+
+
+.dashboardimage{
+    height: 85vh;
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    border-radius: 50px;
+}

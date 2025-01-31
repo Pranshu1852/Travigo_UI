@@ -43,7 +43,8 @@ a{
 
 .navlinks:hover{
     color: #008a29;
-    transition-duration: 0.3s;
+    scale: 1.07;
+    transition-duration: 0.2s;
 }
 
 .navbuttons{
@@ -61,8 +62,9 @@ a{
 }
 
 .loginbutton:hover{
-    text-shadow: -10px -10px 10px #2ac08e, -10px 10px 10px #2ac08e, 10px -10px 10px #2ac08e, 10px 10px 10px #2ac08e;
-    transition-duration: 0.3s;
+    text-shadow: -10px -10px 20px #2ac08e, -10px 10px 20px #2ac08e, 10px -10px 20px #2ac08e, 10px 10px 20px #2ac08e, 10px 0px 20px #2ac08e,-10px 0px 20px #2ac08e;
+    scale: 1.07;
+    transition-duration: 0.2s;
 }
 
 .registerbutton{
@@ -81,7 +83,8 @@ a{
 
 .registerbutton:hover{
     background-color: #2ac08ebb;
-    transition-duration: 0.7s;
+    scale: 1.07;
+    transition-duration: 0.2s;
 }
 
 
@@ -138,7 +141,8 @@ a{
 
 .headsecbutton1:hover{
     background-color: #2ac08ebb;
-    transition-duration: 0.7s;
+    scale: 1.07;
+    transition-duration: 0.2s;
 }
 
 .headsecbutton2{
@@ -158,7 +162,8 @@ a{
 .headsecbutton2:hover{
     background-color: #3e4643;
     color: white;
-    transition-duration: 0.5s;
+    scale: 1.07;
+    transition-duration: 0.2s;
 }
 
 

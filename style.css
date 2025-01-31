@@ -3,16 +3,15 @@ body{
     font-family: "Montserrat", serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .headsection{
     display: flex;
     flex-direction: column;
     gap: 8vh;
     background-image: linear-gradient(to bottom,#b3f3e0,white);
-}
-
-a{
-    text-decoration: none;
-    color: black;
 }
 
 .logo{
@@ -30,12 +29,21 @@ a{
     padding-bottom: 4vh;
 }
 
-.navlinks{
+.navlinkssection{
     display: flex;
     flex-direction: row;
     gap: 2vw;
+}
+
+.navlinks{
+    color: black;
     font-size: large;
     font-weight: 500;
+}
+
+.navlinks:hover{
+    color: #008a29;
+    transition-duration: 0.3s;
 }
 
 .navbuttons{
@@ -46,7 +54,15 @@ a{
 }
 
 .loginbutton{
-    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.loginbutton:hover{
+    text-shadow: -10px -10px 10px #2ac08e, -10px 10px 10px #2ac08e, 10px -10px 10px #2ac08e, 10px 10px 10px #2ac08e;
+    transition-duration: 0.3s;
 }
 
 .registerbutton{
@@ -63,11 +79,12 @@ a{
     cursor: pointer;
 }
 
-.registerlink{
-    color: white;
-    font-weight: bold;
-    font-size: large;
+.registerbutton:hover{
+    background-color: #2ac08ebb;
+    transition-duration: 0.7s;
 }
+
+
 
 
 
@@ -119,6 +136,11 @@ a{
     cursor: pointer;
 }
 
+.headsecbutton1:hover{
+    background-color: #2ac08ebb;
+    transition-duration: 0.7s;
+}
+
 .headsecbutton2{
     background-color: white;
     color: black;
@@ -131,6 +153,12 @@ a{
     padding-top: 2vh;
     padding-bottom: 2vh;
     cursor: pointer;
+}
+
+.headsecbutton2:hover{
+    background-color: #3e4643;
+    color: white;
+    transition-duration: 0.5s;
 }
 
 

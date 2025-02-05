@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travigo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="homepage">
-        <header class="headsection">
-            <nav class="navbar">
-                <img class="logo" src="assets/Travigo.svg" alt="">
-                <div class="navlinkssection">
-                    <a class="navlinks" href="">Home</a>
-                    <a class="navlinks" href="">About</a>
-                    <a class="navlinks" href="">Pricing</a>
-                    <a class="navlinks" href="">Contact</a>
-                    <a class="navlinks" href="">Blog</a>
-                </div>
-                <div class="navbuttons">
-                    <a class="loginbutton" href="">Login</a>
-                    <a class="registerbutton" href="">Register</a>
-                </div>
-            </nav>
-            <div class="headheading">
-                <h1 class="headingtext">It's a Big World Out There, Go Explore.</h1>
-                <p class="subheadingtext">We always make our customers happy by providing many choices.</p>
-                <div class="headsectionsbuttons">
-                    <a class="headsecbutton1">Get Started</a>
-                    <a class="headsecbutton2">Get a Demo</a>
-                </div>
-            </div>
-            <img class="dashboardimage" src="assets/dashboardimg.png" alt="">
-        </header>
+      <header class="homepage__header">
+        <nav class="homepage__navbar">
+          <img class="logo" src="assets/Travigo.svg" alt="logo" />
+          <div class="navbar__links">
+            <a class="navlinks" href="#">Home</a>
+            <a class="navlinks" href="#">About</a>
+            <a class="navlinks" href="#">Pricing</a>
+            <a class="navlinks" href="#">Contact</a>
+            <a class="navlinks" href="#">Blog</a>
+          </div>
+          <div class="navbar__buttons">
+            <a class="navbar__button--login" href="#">Login</a>
+            <a class="navbar__button--register" href="#">Register</a>
+          </div>
+        </nav>
+        <div class="header__heading">
+          <h1 class="heading__text">It's a Big World Out There, Go Explore.</h1>
+          <p class="heading__subtext">
+            We always make our customers happy by providing many choices.
+          </p>
+          <div class="heading__buttons">
+            <a class="heading__button--primary" href="#">Get Started</a>
+            <a class="heading__button--secondary" href="#">Get a Demo</a>
+          </div>
+        </div>
+        <img
+          class="header__image"
+          src="assets/dashboardimg.png"
+          alt="dashboardimage"
+        />
+      </header>
     </div>
-</body>
+  </body>
 </html>
